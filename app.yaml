@@ -5,11 +5,24 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /mobile-angular-ui
-  static_dir: mobile-angular-ui
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /maui
+  static_dir: maui
 
 - url: /js
   static_dir: js
 
+- url: /css
+  static_dir: css
+
+- url: /pages
+  static_dir: pages
+
+- url: /img
+  static_dir: img
+
 - url: .*
-  script: home.html
+  script: index.html

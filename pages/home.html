@@ -1,0 +1,32 @@
+<div class="scrollable">
+    <div class="scrollable-content">
+
+        <div class="list-group text-center">
+            <div class="list-group-item list-group-item-home">
+                <h1>Liftmo Mobile</h1>
+            </div>
+
+
+            <div ng-if="loggedIn" class="list-group-item list-group-item-home">
+                <div>
+                    <i class="fa fa-tachometer feature-icon  text-primary"></i>
+                </div>
+                <div>
+                    <h3 class="home-heading">You're logged in</h3>
+                    Click the 'Log In' button in the top right to log into your account
+                </div>
+            </div>
+            <div ng-if="!loggedIn" class="list-group-item list-group-item-home">
+                <div>
+                    <i class="fa fa-tachometer feature-icon  text-primary"></i>
+                </div>
+                <div>
+                    <h3 class="home-heading">You're not logged in</h3>
+                    Click the 'Menu' button in the top left to explore your options
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
