@@ -1,17 +1,16 @@
 # Liftmo
 
-Check out the desktop site at http://liftmo.com [Github](https://github.com/jiaweizhang/liftmo.com)
+Check out the desktop site at http://liftmo.com ([Github](https://github.com/jiaweizhang/liftmo.com))
 
 ## Features
 
-* Registration, login, updating profile by API call
-* Add, fetch lifts by API call
+* Android and iOS friendly UI/UX
 
 ## Upcoming Features
 
 * Graphical signup, login, profile updating
-* Email verification
 * Graphical lift tracking
+* Graphical lift sharing
 
 ## About
 
@@ -21,8 +20,8 @@ Written by [Jiawei Zhang](https://github.com/jiaweizhang)
 
 App built with the help of these libs:
 
-* [Slim, a micro framework for PHP](http://www.slimframework.com/)
 * [AngularJS, HTML enhanced for web apps](https://angularjs.org/)
+* [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 * [Mobile Angular UI](http://mobileangularui.com/)
 
 ## Services
