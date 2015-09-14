@@ -1,0 +1,15 @@
+application: liftmomobile
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /mobile-angular-ui
+  static_dir: mobile-angular-ui
+
+- url: /js
+  static_dir: js
+
+- url: .*
+  script: home.html
