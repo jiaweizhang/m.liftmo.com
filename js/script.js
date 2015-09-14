@@ -26,12 +26,12 @@ app.run(function ($transform) {
 // 
 app.config(function ($routeProvider) {
     $routeProvider.when('/', {templateUrl: '../pages/home.html', reloadOnSearch: false});
+    $routeProvider.when('/login', {templateUrl: '../pages/login.html', reloadOnSearch: false});
     $routeProvider.when('/scroll', {templateUrl: '../pages/scroll.html', reloadOnSearch: false});
     $routeProvider.when('/toggle', {templateUrl: '../pages/toggle.html', reloadOnSearch: false});
     $routeProvider.when('/tabs', {templateUrl: '../pages/tabs.html', reloadOnSearch: false});
     $routeProvider.when('/accordion', {templateUrl: '../pages/accordion.html', reloadOnSearch: false});
     $routeProvider.when('/overlay', {templateUrl: '../pages/overlay.html', reloadOnSearch: false});
-    $routeProvider.when('/forms', {templateUrl: '../pages/forms.html', reloadOnSearch: false});
     $routeProvider.when('/dropdown', {templateUrl: '../pages/dropdown.html', reloadOnSearch: false});
     $routeProvider.when('/touch', {templateUrl: '../pages/touch.html', reloadOnSearch: false});
     $routeProvider.when('/swipe', {templateUrl: '../pages/swipe.html', reloadOnSearch: false});

@@ -18,7 +18,7 @@
     <script src="maui/dist/js/mobile-angular-ui.min.js"></script>
     <!-- Required to use $touch, $swipe, $drag and $translate services -->
     <script src="maui/dist/js/mobile-angular-ui.gestures.min.js"></script>
-    <script src="js/demo.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
   <body 
@@ -48,8 +48,7 @@
           </div>
         </div>
         <div class="btn-group pull-right">
-              <a ng-if="!loggedIn" href="" class="btn btn-primary navbar-btn" ng-click="logIn()">Log In</a>
-              <a ng-if="loggedIn" href="" class="btn btn-danger navbar-btn" ng-click="logOut()">Log Out</a>
+              <a ng-if="!loggedIn" href="#/login" class="btn btn-default">Log In</a>
         </div>
       </div>
 
